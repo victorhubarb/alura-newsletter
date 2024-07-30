@@ -12,31 +12,42 @@
 * [Project Developers](#project-developers)
 
 ## Project Description
-The project's visual was entirely developed using the Tailwind CSS framework, creating a newsletter for the technology company Alura.
+This project features a simple yet engaging newsletter subscription page designed entirely with HTML and Tailwind CSS. The layout is split into two main components, blending visual appeal with functionality. On the left is a static image that enhances the aesthetic of the page, while the right side houses interactive elements that engage users. This design is not only visually appealing but also optimized for usability, ensuring that users have a seamless experience when subscribing to the newsletter.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 ## Features and Application Demonstration
-- `Feature 1`: The project's visual was entirely developed using the Tailwind CSS framework, which was applied in the project using the tag `<script src="https://cdn.tailwindcss.com"></script>`. 
-- `Feature 2`: Page divided into 2 code blocks, with only the image on the left and the main content on the right.
-- `Feature 3`: Input field applied for newsletter registration to receive emails sent by Alura.
-- `Feature 4`: The project was developed responsively to accommodate various screen sizes.
+- **Responsive Design**: The page is fully responsive, with a layout that adjusts seamlessly across devices. On larger screens, the newsletter features a two-column layout with an image on the left. On smaller screens, the image disappears to focus user attention on the subscription form, which centers itself on the page.
+  
+- **Interactive Bell Icon**: At the top of the subscription side, there is a bell icon that animates when hovered over, simulating the motion of ringing. This playful interaction invites user engagement right from the start.
+  
+- **Subscription Form**: Below the animated bell, there is a brief explanation of what the newsletter offers, followed by an email input field. This field is designed to collect the user's email address for newsletter subscriptions.
+  
+- **Call to Action Button**: The 'Subscribe' button is prominently placed below the email input field. This button is activated when a valid email is entered, enabling users to easily subscribe to the newsletter.
+  
+- **Tailwind CSS for Styling**: Utilizes Tailwind CSS, a utility-first CSS framework, for rapid UI development. This allows for a highly customizable interface while maintaining design consistency and responsiveness.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Access
-Project requirements:
- - Have your preferred IDE installed on your computer.
 
-Access the project hosted [here](https://alura-newsletter-mu-eight.vercel.app) and have fun:
- - Project hosted on Vercel.
- - Easy implementation, [click](https://alura-newsletter-mu-eight.vercel.app) and enter the project, try it out easily and quickly without needing to download the files to your own computer.
+### Prerequisites
+- **Integrated Development Environment (IDE)**: While an IDE like Visual Studio Code is recommended for local development, it is not necessary for accessing the hosted version of the newsletter.
 
-Have the code on your computer:
- - Access the project source code [here](https://github.com/victorhubarb/alura-newsletter) or download the project [here](https://github.com/victorhubarb/alura-newsletter/archive/refs/heads/main.zip). After one of these steps, and also unzip it on your computer in case of download, open the project in your preferred IDE.
+### Online Access
+- **Live Demo**: Experience the interactive newsletter directly through its hosted version on Vercel:
+  - [Visit Alura Newsletter](https://alura-newsletter-mu-eight.vercel.app) to see the newsletter in action. No installation or download is required, allowing for immediate access and interaction.
 
-Clone repository with the following steps:
- 1. Open the terminal
- 2. git clone https://github.com/victorhubarb/alura-newsletter.git
- 3. Press ENTER to create your clone
+### Local Setup
+- **Access and Download the Source Code**:
+  - The source code is available on GitHub. You can view it by visiting the [Alura Newsletter repository](https://github.com/victorhubarb/alura-newsletter).
+  - To download the project, [click here](https://github.com/victorhubarb/alura-newsletter/archive/refs/heads/main.zip), unzip the file after downloading, and open the project in your IDE.
+
+- **Clone the Repository**:
+  ```bash
+  # Open your terminal
+  git clone https://github.com/victorhubarb/alura-newsletter.git
+  cd alura-newsletter
+  
+  # You are now ready to work on the project locally.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Technologies Used
